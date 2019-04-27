@@ -58,7 +58,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"E:\Ionic\Prueba1\myApp\project code\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title class="pene">\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div align ="center">\n    <img src="https://cdn.pixabay.com/photo/2016/10/18/19/56/cute-1751246_1280.png" class="gify">\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\Ionic\Prueba1\myApp\project code\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"E:\Ionic\TFG\angular-testing.github.io\project code\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title class="pene">\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div align ="center">\n    <img src="https://cdn.pixabay.com/photo/2017/10/14/15/51/lemon-2850849_1280.png" class="gify">\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\Ionic\TFG\angular-testing.github.io\project code\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], AboutPage);
@@ -175,7 +175,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"E:\Ionic\Prueba1\myApp\project code\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"E:\Ionic\Prueba1\myApp\project code\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"E:\Ionic\TFG\angular-testing.github.io\project code\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"E:\Ionic\TFG\angular-testing.github.io\project code\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
