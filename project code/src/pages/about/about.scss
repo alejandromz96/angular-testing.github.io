@@ -1,0 +1,22 @@
+.pene {
+    text-align: center;
+
+}
+
+@keyframes example {
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+
+.gify {
+    width: "200";
+    height: "100";
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 100%;
+}
