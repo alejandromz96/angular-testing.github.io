@@ -1,0 +1,39 @@
+
+$contentStyle-color1: #6a5196;
+$contentStyle-color2: #422494;
+
+$bg-color1: #bc4dca;
+$bg-color2: #852099;
+
+.contentJasmineStyle {
+    background: linear-gradient(45deg, $contentStyle-color1 20%, $contentStyle-color2 100%);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+.jasmineTitle {
+  font-size: 400%;
+  background: linear-gradient(45deg, $bg-color1 20%, $bg-color2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 90%;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.jasmineSubtitle {
+  font-size: 250%;
+  background: linear-gradient(45deg, $bg-color1 20%, $bg-color2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 90%;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.jasmineImage {
+    margin-top: 2rem;
+	width: 18rem;
+}

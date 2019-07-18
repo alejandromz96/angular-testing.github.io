@@ -1,0 +1,64 @@
+
+$contentStyle-color1: #ffc524;
+$contentStyle-color2: #ff5e00;
+
+$bg-color1: #f73100;
+$bg-color2: #5a0101;
+
+$item-color1: #ffc524;
+$item-color2: #1f1100;
+
+$buttonColor1: #fdff90;
+$buttonColor2: #ff3b18;
+$buttonColor3: #f7edb5;
+$buttonColor4: #fd5e02;
+
+.contentTestingStyle {
+    background: linear-gradient(45deg, $contentStyle-color1 20%, $contentStyle-color2 100%);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testingTitle {
+  font-size: 400%;
+  background: linear-gradient(45deg, $bg-color1 20%, $bg-color2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 90%;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.testingSubtitle {
+  font-size: 250%;
+  background: linear-gradient(45deg, $bg-color1 20%, $bg-color2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 90%;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.itemTestingStyle {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: linear-gradient(90deg, $contentStyle-color1 50%, $contentStyle-color2 100%);
+  color: $item-color2;
+}
+
+.testingButton {
+  margin-top: 2rem;
+    color: $buttonColor1;
+    font-weight: bold;
+    background: $buttonColor2;
+    border-radius: 45%;
+  }
+  
+  .testingButton:hover {
+    color: $buttonColor3;
+    background: $buttonColor4 !important;
+    border-radius: 50%;
+  }

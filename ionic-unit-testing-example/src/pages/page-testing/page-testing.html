@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Zona de pruebas</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="contentTestingStyle">
+   
+    <h1 class="testingTitle">Zona de Pruebas</h1>
+    <h1 class="testingSubtitle">zona para probar tests unitarios y e2e</h1>
+    <div style="margin-top: 5%">
+      <ion-item class="itemTestingStyle" id="NameField">
+        <ion-label  *ngIf="nameProvided" style='color: red'>Campo requerido</ion-label>
+          <ion-label > Nombre: <span style='color: red'>*</span></ion-label>
+          <ion-input type="text" [(ngModel)]="warrior.name"></ion-input>
+      </ion-item>
+
+      <ion-item class="itemTestingStyle" id="ClassField">
+        <ion-label> Clase del guerrero</ion-label>
+        <ion-select [(ngModel)]="warrior.warriorClass" interface="popover">
+          <ion-option  *ngFor="let warriorClass of warriorClasses">{{warriorClass}}</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item class="itemTestingStyle" id="WeaponField">
+        <ion-label> Arma</ion-label>
+        <ion-select [(ngModel)]="warrior.weapon" interface="popover">
+          <ion-option  *ngFor="let weapon of weapons">{{weapon}}</ion-option>
+        </ion-select>
+      </ion-item>
+      
+      <ion-item class="itemTestingStyle" id="DescriptionField">
+        <ion-label> Descripción</ion-label>
+        <ion-textarea rows="6" cols="20" placeholder="Introduce aqui una description" [(ngModel)]="warrior.description"></ion-textarea>
+      </ion-item>
+    </div>
+
+    <button ion-button (click)="createWarrior()" class="testingButton">Crear Guerrero</button>
+    <warrior-component #warriorComponent></warrior-component>    
+  
+</ion-content>

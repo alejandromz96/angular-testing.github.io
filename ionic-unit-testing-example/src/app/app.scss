@@ -1,0 +1,87 @@
+
+$menuList-text-color:  #ffffff;
+
+//#region menu list buttons
+$menuList-color1: #3b3b3b;
+$menuList-color2: #222222;
+
+$menuListHome-focus-color1: #a5a4a4;
+$menuListHome-focus-color2: #6b6b6b;
+
+$menuListJasmine-focus-color1: #6a5196;
+$menuListJasmine-focus-color2: #422494;
+
+$menuListProtractor-focus-color1: #71da51;
+$menuListProtractor-focus-color2: #2e8123;
+
+$menuListAngular-focus-color1: #da5151;
+$menuListAngular-focus-color2: #d32323;
+
+$menuListIonic-focus-color1: #618d8f;
+$menuListIonic-focus-color2: #365f96;
+
+$menuListTesting-focus-color1: #ffc524;
+$menuListTesting-focus-color2: #ff5e00;
+
+.menuListHome {
+    background: linear-gradient(90deg, $menuList-color1 20%, $menuList-color2 100%);
+    color: $menuList-text-color;
+}
+.menuListHome:hover {
+    background: linear-gradient(90deg, $menuListHome-focus-color1 20%, $menuListHome-focus-color2 100%);
+}
+
+.menuListJasmine {
+    background: linear-gradient(90deg, $menuList-color1 20%, $menuList-color2 100%);
+    color: $menuList-text-color;
+}
+.menuListJasmine:hover {
+    background: linear-gradient(90deg, $menuListJasmine-focus-color1 20%, $menuListJasmine-focus-color2 100%);
+}
+
+.menuListProtractor {
+    background: linear-gradient(90deg, $menuList-color1 20%, $menuList-color2 100%);
+    color: $menuList-text-color;
+}
+.menuListProtractor:hover {
+    background: linear-gradient(90deg, $menuListProtractor-focus-color1 20%, $menuListProtractor-focus-color2 100%);
+}
+
+.menuListAngular {
+    background: linear-gradient(90deg, $menuList-color1 20%, $menuList-color2 100%);
+    color: $menuList-text-color;
+}
+.menuListAngular:hover {
+    background: linear-gradient(90deg, $menuListAngular-focus-color1 20%, $menuListAngular-focus-color2 100%);
+}
+
+.menuListIonic {
+    background: linear-gradient(90deg, $menuList-color1 20%, $menuList-color2 100%);
+    color: $menuList-text-color;
+}
+.menuListIonic:hover {
+    background: linear-gradient(90deg, $menuListIonic-focus-color1 20%, $menuListIonic-focus-color2 100%);
+}
+
+.menuListTesting {
+    background: linear-gradient(90deg, $menuList-color1 20%, $menuList-color2 100%);
+    color: $menuList-text-color;
+}
+.menuListTesting:hover {
+    background: linear-gradient(90deg, $menuListTesting-focus-color1 20%, $menuListTesting-focus-color2 100%);
+}
+//#endregion
+
+.toolbar-background {
+    background: linear-gradient(90deg, $menuList-color1 20%, $menuList-color2 100%);
+}
+
+.toolbar-title {
+    color: $menuList-text-color;
+}
+
+ion-menu{    
+    ion-content{
+        background: linear-gradient(90deg, $menuList-color1 20%, $menuList-color2 100%);
+    }
+   }

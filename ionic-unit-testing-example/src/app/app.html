@@ -1,0 +1,33 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button class="menuListHome" menuClose ion-item (click)="openPage(pages[0])">
+        {{pages[0].title}}
+      </button>
+      <button class="menuListJasmine" menuClose ion-item (click)="openPage(pages[1])">
+        {{pages[1].title}}
+      </button>
+      <button class="menuListProtractor" menuClose ion-item (click)="openPage(pages[2])">
+        {{pages[2].title}}
+      </button>
+      <button class="menuListAngular" menuClose ion-item (click)="openPage(pages[3])">
+        {{pages[3].title}}
+      </button>
+      <button class="menuListIonic" menuClose ion-item (click)="openPage(pages[4])">
+        {{pages[4].title}}
+      </button>
+      <button class="menuListTesting" menuClose ion-item (click)="openPage(pages[5])">
+        {{pages[5].title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

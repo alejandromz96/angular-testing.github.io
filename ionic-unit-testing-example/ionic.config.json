@@ -1,0 +1,7 @@
+{
+  "name": "angular-testing-warriors",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

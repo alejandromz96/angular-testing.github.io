@@ -18,7 +18,7 @@ npm-debug.log*
 .versions/
 coverage/
 dist/
-./ionic-unit-testing-example/node_modules/
+ionic-unit-testing-example/node_modules/
 tmp/
 temp/
 hooks/
