@@ -32,7 +32,7 @@ describe('PageProtractor', () => {
   it('should have expected <p> text', () => {
     fixture.detectChanges();
     const p = de.nativeElement;
-    expect(p.innerText).toContain('Aqui se hablará de protractor.');
+    expect(p.innerText).toContain('Protractor es la última gran tecnología de la que hablaremos, y es un framework, que apoyado en Jassmine,');
   });
 
   it('should show the favicon as <img>', () => {

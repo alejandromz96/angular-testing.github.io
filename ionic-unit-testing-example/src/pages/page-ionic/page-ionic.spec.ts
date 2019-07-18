@@ -32,7 +32,7 @@ describe('PageIonic', () => {
   it('should have expected <p> text', () => {
     fixture.detectChanges();
     const p = de.nativeElement;
-    expect(p.innerText).toContain('Aqui se hablará de ionic.');
+    expect(p.innerText).toContain('El mercado móvil es enorme y cada vez crece más,');
   });
 
   it('should show the favicon as <img>', () => {

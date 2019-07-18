@@ -32,7 +32,7 @@ describe('PageAngular', () => {
   it('should have expected <p> text', () => {
     fixture.detectChanges();
     const p = de.nativeElement;
-    expect(p.innerText).toContain("Aqui se hablará de angular.");
+    expect(p.innerText).toContain(`Podemos definir Angular como un framework`);
   });
 
   it('should show the favicon as <img>', () => {

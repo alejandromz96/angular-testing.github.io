@@ -32,7 +32,7 @@ describe('PageJasmine', () => {
   it('should have expected <p> text', () => {
     fixture.detectChanges();
     const p = de.nativeElement;
-    expect(p.innerText).toContain('Aqui se hablará de jasmine.');
+    expect(p.innerText).toContain('Jassmine es un framework para el desarrollo de testing de código JavaScript, ');
   });
 
   it('should show the favicon as <img>', () => {
